@@ -1,0 +1,168 @@
+div{
+	/*border: 1px solid red;
+	min-height: 50px;*/
+}
+
+.mynav{
+	background-color: white !important;
+}
+
+.welcome{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.intro_inside{
+	border-left: 5px solid tomato;
+	padding-left: 5px;
+}
+
+ a.linky{
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: tomato;
+	color: white;
+	border-radius: 10px;
+}
+
+.progress-item{
+	display: flex;
+	align-items: center;
+	border:none;
+	border-bottom: 1px solid gray;
+}
+.progress-item h3{
+	width: 30%;
+}
+
+.progress-item h3 i{
+	color: tomato;
+	padding-right:10px;
+}
+
+
+.about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.about h1{
+	border-left: 5px solid tomato;
+	padding-left: 5px;
+}
+
+
+.about p{
+	width: 80%;
+}
+.project{
+	padding-bottom: 100px;
+}
+
+.project .project-heading{
+	text-align: center;
+}
+
+.project hr{
+	border-bottom: 5px solid tomato;
+	width: 50px;
+	margin: auto;
+}
+
+
+.testimonial{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+
+.testimonial h1{
+	border-left: 5px solid tomato;
+	padding-left:10px ;
+}
+
+.testimonial h1 span{
+	font-weight: 600;
+	font-size: 0.8em;
+}
+
+.testimonial .review_box{
+	box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+	padding: 10px;
+	position: relative;
+}
+
+.testimonial .review_box i{
+	color: tomato;
+	position: absolute;
+	top: -9px;
+}
+
+
+input, textarea{
+	border: none !important;
+	outline: none;
+	border-bottom: 1px solid rgb(234, 229, 229) !important;
+	border-radius: none !important;
+	margin-bottom: 10px;
+	background-color: transparent !important;
+	color: white !important;
+}
+
+input::placeholder{
+	color: white !important;
+}
+
+.contact .sec1 {
+	border-radius: 40px 0px 0px 40px;
+}
+
+.contact .sec2 {
+	border-radius: 0px 40px 40px 0px;
+}
+
+.contact{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer a{
+	display: block;
+	text-decoration: none;
+}
+
+.copyright p{
+	text-align: center;
+	padding: 20px 0px;
+}
+@media screen and (max-width:580px) {
+	.welcome{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.about{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.about p{
+		width: 100%;
+	}
+	.project{
+		padding-bottom: 20px;
+	}
+	.sec1{
+		
+	}
+	.sec2{
+		margin-top: 10px;
+	}
+
+	
+}
